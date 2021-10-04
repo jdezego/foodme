@@ -13,7 +13,11 @@ exports.config = {
   /**
    * Your New Relic license key.
    */
-  license_key: process.env.LICENSE_KEY,
+  license_key: '8d9fe8d0a7021d7a6712e43655ec071d92029f36',
+
+  //or pass license key to docker as environment vriable
+  //docker run -p 80:3000 -e NEW_RELIC_LICENSE_KEY='8d9fe8d0a7021d7a6712e43655ec071d92029f36' -d jdezego/foodme
+
   logging: {
     /**
      * Level at which to log. 'trace' is most useful to New Relic when diagnosing
