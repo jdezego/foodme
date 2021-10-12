@@ -16,7 +16,7 @@ exports.config = {
   license_key: '8d9fe8d0a7021d7a6712e43655ec071d92029f36',
 
   //or pass license key to docker as environment vriable
-  //docker run -p 80:3000 -e NEW_RELIC_LICENSE_KEY='8d9fe8d0a7021d7a6712e43655ec071d92029f36' -d jdezego/foodme
+  //docker run -p 80:3000 -e NEW_RELIC_LICENSE_KEY='8d9fe8d0a7021d7a6712e43655ec071d92029f36' -e NEW_RELIC_APP_NAME='Restaurant' -d jdezego/default:foodme
 
   logging: {
     /**
